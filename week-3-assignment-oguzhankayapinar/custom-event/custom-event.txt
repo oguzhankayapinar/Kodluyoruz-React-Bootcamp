@@ -1,0 +1,10 @@
+Javascript CustomEvent() oluşturma ve dinleme
+
+-Web tarayıcılar ile birlikte gelen birçok event var ve birçoğunu zaten kullanıyoruz. Click, input, change vb.. fakat bunların dışında kendi eventinimi CustomEvent() ile yaratabiliriz.
+
+
+Sytanx yapısı aşağıdaki gibidir:
+new CustomEvent(type)
+new CustomEvent(type, options)
+
+-Yeni bir CustomEvent nesnesi return etmek için: `Return Value` 
